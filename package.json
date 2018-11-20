@@ -5,9 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/vue-fontawesome": "^0.1.2",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "gh-pages": "^2.0.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
@@ -42,5 +48,20 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMuhamad/todo-list.git"
+  },
+  "keywords": [
+    "todo-list"
+  ],
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMuhamad/todo-list/issues"
+  },
+  "homepage": "https://danielmuhamad.github.io/todo-list"
 }
